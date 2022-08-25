@@ -16,5 +16,6 @@ module "devinstance" {
 
 	hello_tf_instance_type = "t2.large"
       prefix = "stkgw"
+#
 }
 
