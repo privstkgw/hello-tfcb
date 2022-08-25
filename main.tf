@@ -14,7 +14,7 @@ module "devinstance" {
 	source  = "app.terraform.io/handson-tokugawa/devinstance/aws"
 	version = "0.0.3"
 
-	hello_tf_instance_type = "t2.large"
+	hello_tf_instance_type = "t2.micro"
       prefix = "stkgw"
 }
 
